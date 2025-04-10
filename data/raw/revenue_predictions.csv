@@ -1,4 +1,4 @@
-Region,Segment,Product_Category,Units_Sold,Unit_Price,Discount_Percent,Actual_Revenue,Predicted_Revenue
+region,segment,product_category,units_sold,unit_price,discount_percent,actual_revenue,predicted_revenue
 Asia Pacific,Home Office,Technology,337,14.89,0.3,3512.55,4220.173748523377
 North America,Home Office,Office Supplies,473,8.87,0.15,3566.18,11703.578115650429
 North America,Corporate,Furniture,114,42.16,0.1,4325.62,4478.679604018658

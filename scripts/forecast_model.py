@@ -16,12 +16,12 @@ from sklearn.metrics import mean_absolute_error, r2_score
 df = pd.read_csv('data/raw/sales_forecasting_dataset.csv')
 
 # Features & Target
-X = df.drop(columns=['Revenue', 'Date'])
-y = df['Revenue']
+X = df.drop(columns=['revenue', 'date'])
+y = df['revenue']
 
 # Categorical and numerical columns
-categorical_cols = ['Region', 'Segment', 'Product_Category']
-numerical_cols = ['Units_Sold', 'Unit_Price', 'Discount_Percent']
+categorical_cols = ['region', 'segment', 'product_category']
+numerical_cols = ['units_sold', 'unit_price', 'discount_percent']
 
 # Preprocessing
 preprocessor = ColumnTransformer(
@@ -56,8 +56,8 @@ print(f"📈 R² Score: {r2:.2f}")
 
 # Save predictions to CSV
 X_test_copy = X_test.copy()
-X_test_copy['Actual_Revenue'] = y_test.values
-X_test_copy['Predicted_Revenue'] = y_pred
+X_test_copy['actual_revenue'] = y_test.values
+X_test_copy['predicted_revenue'] = y_pred
 
 output_path = 'data/raw/revenue_predictions.csv'
 os.makedirs(os.path.dirname(output_path), exist_ok=True)

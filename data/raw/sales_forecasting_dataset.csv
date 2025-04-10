@@ -1,4 +1,4 @@
-Date,Region,Segment,Product_Category,Units_Sold,Unit_Price,Discount_Percent,Revenue
+date,region,segment,product_category,units_sold,unit_price,discount_percent,revenue
 2022-01-01,Asia Pacific,Consumer,Furniture,116,79.07,0.2,7337.7
 2022-01-01,Asia Pacific,Corporate,Furniture,224,10.52,0.2,1885.18
 2022-01-01,Latin America,Home Office,Office Supplies,318,97.14,0.15,26256.94
