@@ -40,13 +40,20 @@ We simulate a real-world sales dataset and apply forecasting techniques using Py
 
 ---
 
-## 📌 Coming Next
+## 📊 Forecasting Model
 
-- ✅ Generate synthetic dataset
-- 🔜 Train forecasting model
-- 🔜 Connect model output to Power BI
-- 🔜 Add SHAP or similar explainability metrics
-- 🔜 Publish and document interactive dashboard
+A regression model was trained using Python (scikit-learn) to predict Revenue based on historical sales data. The following steps were included:
+- Data preprocessing using a Pipeline (OneHotEncoder + passthrough for numeric features)
+- Train/Test split for validation
+- Evaluation metrics:
+-   MAE (Mean Absolute Error)
+-   R² Score
+- Predictions were saved to a CSV file for Power BI use
+
+📁 Output file: data/raw/revenue_predictions.csv
+
+You can find the modeling code in:
+➡️ scripts/forecast_model.py
 
 ---
 
