@@ -12,6 +12,11 @@ We simulate a real-world sales dataset and apply forecasting techniques using Py
 
 ## 📁 Project Structure
 
+📁 data/raw/
+📁 notebooks/
+📁 scripts/
+📁 visuals/screenshots/
+📁 powerbi/
 
 ---
 
