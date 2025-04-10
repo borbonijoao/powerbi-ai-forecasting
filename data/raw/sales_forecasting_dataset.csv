@@ -1,0 +1,361 @@
+Date,Region,Segment,Product_Category,Units_Sold,Unit_Price,Discount_Percent,Revenue
+2022-01-01,Asia Pacific,Consumer,Furniture,116,79.07,0.2,7337.7
+2022-01-01,Asia Pacific,Corporate,Furniture,224,10.52,0.2,1885.18
+2022-01-01,Latin America,Home Office,Office Supplies,318,97.14,0.15,26256.94
+2022-01-01,Europe,Corporate,Office Supplies,201,99.26,0.0,19951.26
+2022-01-01,Latin America,Corporate,Office Supplies,262,46.03,0.0,12059.86
+2022-01-01,Asia Pacific,Home Office,Furniture,179,9.43,0.15,1434.77
+2022-01-01,Latin America,Home Office,Office Supplies,455,79.59,0.1,32592.11
+2022-01-01,Latin America,Home Office,Technology,140,86.69,0.3,8495.62
+2022-01-01,North America,Consumer,Furniture,283,95.14,0.15,22885.93
+2022-01-01,Europe,Corporate,Office Supplies,274,6.52,0.05,1697.16
+2022-01-01,Latin America,Home Office,Furniture,437,52.04,0.3,15919.04
+2022-01-01,Asia Pacific,Corporate,Technology,429,22.31,0.15,8135.34
+2022-01-01,Europe,Corporate,Office Supplies,63,56.94,0.25,2690.42
+2022-01-01,North America,Home Office,Office Supplies,227,47.73,0.05,10292.97
+2022-01-01,Europe,Corporate,Furniture,313,36.02,0.25,8455.7
+2022-02-01,Asia Pacific,Consumer,Office Supplies,305,85.23,0.2,20796.12
+2022-02-01,Europe,Home Office,Technology,289,38.89,0.15,9553.33
+2022-02-01,Latin America,Consumer,Technology,166,81.21,0.0,13480.86
+2022-02-01,North America,Home Office,Technology,353,42.51,0.3,10504.22
+2022-02-01,Asia Pacific,Home Office,Technology,401,74.26,0.0,29778.26
+2022-02-01,Asia Pacific,Consumer,Office Supplies,240,66.85,0.15,13637.4
+2022-02-01,Asia Pacific,Consumer,Office Supplies,42,11.04,0.3,324.58
+2022-02-01,Europe,Consumer,Furniture,181,65.57,0.1,10681.35
+2022-02-01,Asia Pacific,Consumer,Furniture,110,97.31,0.1,9633.69
+2022-02-01,North America,Consumer,Office Supplies,264,29.33,0.1,6968.81
+2022-02-01,North America,Home Office,Furniture,355,7.41,0.2,2104.44
+2022-02-01,Asia Pacific,Home Office,Furniture,250,34.86,0.15,7407.75
+2022-02-01,Europe,Consumer,Furniture,240,43.99,0.1,9501.84
+2022-02-01,North America,Consumer,Furniture,196,71.0,0.15,11828.6
+2022-02-01,Europe,Corporate,Technology,71,65.17,0.25,3470.3
+2022-03-01,Latin America,Corporate,Office Supplies,340,35.81,0.3,8522.78
+2022-03-01,Latin America,Consumer,Furniture,199,15.45,0.0,3074.55
+2022-03-01,Asia Pacific,Corporate,Technology,125,38.49,0.1,4330.12
+2022-03-01,Asia Pacific,Corporate,Furniture,146,51.06,0.0,7454.76
+2022-03-01,Asia Pacific,Corporate,Furniture,324,35.7,0.0,11566.8
+2022-03-01,Latin America,Consumer,Office Supplies,451,96.43,0.25,32617.45
+2022-03-01,Asia Pacific,Corporate,Furniture,122,19.07,0.0,2326.54
+2022-03-01,Asia Pacific,Consumer,Office Supplies,139,44.05,0.3,4286.06
+2022-03-01,North America,Consumer,Technology,412,69.67,0.2,22963.23
+2022-03-01,Latin America,Corporate,Office Supplies,425,61.31,0.3,18239.72
+2022-03-01,Asia Pacific,Home Office,Technology,264,81.3,0.2,17170.56
+2022-03-01,Latin America,Corporate,Office Supplies,479,55.9,0.0,26776.1
+2022-03-01,North America,Home Office,Office Supplies,473,8.87,0.15,3566.18
+2022-03-01,Latin America,Home Office,Furniture,355,53.65,0.1,17141.18
+2022-03-01,Latin America,Home Office,Technology,426,42.77,0.3,12754.01
+2022-04-01,Europe,Consumer,Furniture,485,74.85,0.05,34487.14
+2022-04-01,Asia Pacific,Home Office,Office Supplies,307,29.5,0.15,7698.02
+2022-04-01,Latin America,Corporate,Technology,69,29.78,0.0,2054.82
+2022-04-01,Latin America,Corporate,Technology,46,88.85,0.3,2860.97
+2022-04-01,North America,Consumer,Furniture,156,73.97,0.1,10385.39
+2022-04-01,Latin America,Corporate,Technology,417,85.84,0.0,35795.28
+2022-04-01,Latin America,Corporate,Office Supplies,236,40.37,0.0,9527.32
+2022-04-01,Asia Pacific,Consumer,Technology,411,20.28,0.05,7918.33
+2022-04-01,Europe,Corporate,Furniture,217,99.47,0.15,18347.24
+2022-04-01,North America,Consumer,Office Supplies,286,21.99,0.3,4402.4
+2022-04-01,Asia Pacific,Consumer,Technology,185,13.9,0.1,2314.35
+2022-04-01,Europe,Home Office,Office Supplies,247,61.04,0.25,11307.66
+2022-04-01,North America,Home Office,Office Supplies,273,64.96,0.05,16847.38
+2022-04-01,North America,Corporate,Technology,293,68.55,0.0,20085.15
+2022-04-01,North America,Consumer,Furniture,13,7.31,0.0,95.03
+2022-05-01,Latin America,Consumer,Office Supplies,486,31.56,0.25,11503.62
+2022-05-01,Asia Pacific,Consumer,Technology,289,36.42,0.25,7894.04
+2022-05-01,North America,Home Office,Furniture,197,86.04,0.3,11864.92
+2022-05-01,North America,Consumer,Furniture,170,35.11,0.05,5670.26
+2022-05-01,North America,Corporate,Furniture,63,71.12,0.25,3360.42
+2022-05-01,Latin America,Corporate,Furniture,351,39.07,0.3,9599.5
+2022-05-01,Asia Pacific,Corporate,Office Supplies,483,75.37,0.0,36403.71
+2022-05-01,North America,Home Office,Office Supplies,185,57.52,0.05,10109.14
+2022-05-01,Asia Pacific,Corporate,Furniture,315,87.37,0.2,22017.24
+2022-05-01,Latin America,Corporate,Furniture,322,64.65,0.15,17694.71
+2022-05-01,North America,Corporate,Office Supplies,469,89.23,0.3,29294.21
+2022-05-01,Latin America,Corporate,Office Supplies,297,59.94,0.25,13351.64
+2022-05-01,Asia Pacific,Consumer,Office Supplies,72,98.27,0.25,5306.58
+2022-05-01,Europe,Corporate,Office Supplies,314,8.55,0.25,2013.52
+2022-05-01,Asia Pacific,Corporate,Furniture,453,36.03,0.2,13057.27
+2022-06-01,Latin America,Consumer,Furniture,205,84.99,0.15,14809.51
+2022-06-01,Europe,Home Office,Furniture,320,18.14,0.2,4643.84
+2022-06-01,Europe,Corporate,Office Supplies,156,80.54,0.3,8794.97
+2022-06-01,Asia Pacific,Corporate,Furniture,355,7.41,0.2,2104.44
+2022-06-01,Europe,Home Office,Furniture,402,70.41,0.0,28304.82
+2022-06-01,Europe,Corporate,Technology,248,28.77,0.25,5351.22
+2022-06-01,Europe,Consumer,Technology,382,65.64,0.2,20059.58
+2022-06-01,Asia Pacific,Home Office,Technology,287,74.35,0.1,19204.6
+2022-06-01,Latin America,Corporate,Furniture,494,16.42,0.2,6489.18
+2022-06-01,Europe,Consumer,Furniture,103,86.27,0.15,7552.94
+2022-06-01,North America,Corporate,Office Supplies,441,81.66,0.15,30610.25
+2022-06-01,North America,Corporate,Office Supplies,366,42.86,0.05,14902.42
+2022-06-01,Europe,Consumer,Office Supplies,189,40.59,0.05,7287.93
+2022-06-01,Asia Pacific,Corporate,Technology,334,69.98,0.3,16361.32
+2022-06-01,Europe,Consumer,Furniture,349,59.67,0.05,19783.59
+2022-07-01,Asia Pacific,Consumer,Technology,454,56.83,0.2,20640.66
+2022-07-01,Latin America,Home Office,Technology,426,66.89,0.1,25645.63
+2022-07-01,Latin America,Consumer,Technology,21,14.57,0.05,290.67
+2022-07-01,North America,Home Office,Office Supplies,44,36.97,0.05,1545.35
+2022-07-01,Latin America,Consumer,Office Supplies,467,7.21,0.05,3198.72
+2022-07-01,Asia Pacific,Consumer,Furniture,205,70.82,0.05,13792.19
+2022-07-01,North America,Home Office,Technology,385,74.83,0.2,23047.64
+2022-07-01,North America,Consumer,Office Supplies,366,76.31,0.1,25136.51
+2022-07-01,North America,Home Office,Office Supplies,496,60.15,0.3,20884.08
+2022-07-01,Europe,Consumer,Technology,192,76.33,0.0,14655.36
+2022-07-01,Asia Pacific,Consumer,Office Supplies,282,55.76,0.15,13365.67
+2022-07-01,Latin America,Consumer,Office Supplies,406,90.07,0.0,36568.42
+2022-07-01,Latin America,Consumer,Technology,412,13.67,0.3,3942.43
+2022-07-01,Latin America,Corporate,Furniture,393,50.84,0.05,18981.11
+2022-07-01,Asia Pacific,Consumer,Technology,108,62.23,0.15,5712.71
+2022-08-01,Asia Pacific,Consumer,Technology,160,79.22,0.3,8872.64
+2022-08-01,North America,Consumer,Office Supplies,195,10.47,0.3,1429.16
+2022-08-01,Europe,Consumer,Furniture,224,56.86,0.1,11462.98
+2022-08-01,Europe,Home Office,Technology,83,84.51,0.0,7014.33
+2022-08-01,North America,Corporate,Furniture,183,71.59,0.05,12445.92
+2022-08-01,North America,Corporate,Furniture,131,18.93,0.2,1983.86
+2022-08-01,North America,Corporate,Furniture,145,40.56,0.0,5881.2
+2022-08-01,Europe,Consumer,Furniture,336,98.67,0.15,28180.15
+2022-08-01,Latin America,Corporate,Furniture,284,78.83,0.25,16790.79
+2022-08-01,Asia Pacific,Home Office,Office Supplies,355,36.37,0.25,9683.51
+2022-08-01,Asia Pacific,Consumer,Technology,251,49.52,0.05,11808.04
+2022-08-01,Latin America,Consumer,Furniture,370,75.7,0.1,25208.1
+2022-08-01,North America,Corporate,Technology,200,50.38,0.0,10076.0
+2022-08-01,Latin America,Consumer,Office Supplies,126,96.51,0.15,10336.22
+2022-08-01,North America,Consumer,Technology,312,89.66,0.25,20980.44
+2022-09-01,North America,Home Office,Technology,173,57.62,0.15,8473.02
+2022-09-01,North America,Corporate,Furniture,242,25.6,0.3,4336.64
+2022-09-01,Asia Pacific,Consumer,Technology,63,60.51,0.3,2668.49
+2022-09-01,North America,Home Office,Office Supplies,233,10.5,0.25,1834.88
+2022-09-01,Latin America,Consumer,Office Supplies,357,66.45,0.05,22536.52
+2022-09-01,Latin America,Corporate,Technology,50,29.7,0.1,1336.5
+2022-09-01,Europe,Home Office,Technology,210,34.41,0.15,6142.18
+2022-09-01,North America,Consumer,Technology,55,12.24,0.25,504.9
+2022-09-01,Europe,Home Office,Technology,312,92.32,0.05,27363.65
+2022-09-01,Latin America,Corporate,Office Supplies,260,9.3,0.3,1692.6
+2022-09-01,Latin America,Consumer,Office Supplies,74,50.64,0.3,2623.15
+2022-09-01,North America,Home Office,Technology,291,41.18,0.25,8987.54
+2022-09-01,Asia Pacific,Home Office,Technology,470,11.03,0.0,5184.1
+2022-09-01,Asia Pacific,Home Office,Technology,414,10.36,0.25,3216.78
+2022-09-01,Latin America,Consumer,Technology,360,76.24,0.1,24701.76
+2022-10-01,North America,Home Office,Technology,62,94.75,0.05,5580.78
+2022-10-01,Asia Pacific,Consumer,Technology,87,24.48,0.0,2129.76
+2022-10-01,Asia Pacific,Consumer,Technology,269,26.72,0.0,7187.68
+2022-10-01,Latin America,Corporate,Furniture,81,7.11,0.05,547.11
+2022-10-01,Europe,Corporate,Office Supplies,268,54.42,0.15,12396.88
+2022-10-01,North America,Corporate,Technology,487,88.28,0.0,42992.36
+2022-10-01,North America,Home Office,Furniture,416,76.74,0.2,25539.07
+2022-10-01,Europe,Corporate,Furniture,444,90.8,0.15,34267.92
+2022-10-01,Europe,Corporate,Office Supplies,107,65.48,0.3,4904.45
+2022-10-01,Asia Pacific,Home Office,Furniture,491,38.08,0.25,14022.96
+2022-10-01,North America,Home Office,Office Supplies,256,54.74,0.0,14013.44
+2022-10-01,North America,Consumer,Office Supplies,193,85.0,0.0,16405.0
+2022-10-01,Latin America,Consumer,Office Supplies,271,51.8,0.2,11230.24
+2022-10-01,Europe,Home Office,Furniture,249,37.45,0.3,6527.54
+2022-10-01,North America,Home Office,Furniture,345,19.43,0.25,5027.51
+2022-11-01,Latin America,Consumer,Furniture,361,50.03,0.2,14448.66
+2022-11-01,Latin America,Corporate,Technology,131,26.27,0.2,2753.1
+2022-11-01,North America,Corporate,Office Supplies,326,8.02,0.25,1960.89
+2022-11-01,North America,Consumer,Technology,21,24.6,0.05,490.77
+2022-11-01,North America,Corporate,Office Supplies,310,35.55,0.05,10469.48
+2022-11-01,North America,Home Office,Technology,223,12.77,0.25,2135.78
+2022-11-01,Asia Pacific,Home Office,Technology,346,31.3,0.0,10829.8
+2022-11-01,Latin America,Consumer,Furniture,262,98.69,0.3,18099.75
+2022-11-01,Asia Pacific,Corporate,Office Supplies,483,77.2,0.25,27965.7
+2022-11-01,Latin America,Corporate,Technology,163,8.48,0.1,1244.02
+2022-11-01,Asia Pacific,Home Office,Furniture,416,53.61,0.3,15611.23
+2022-11-01,Latin America,Consumer,Office Supplies,303,55.6,0.3,11792.76
+2022-11-01,Latin America,Consumer,Furniture,494,22.32,0.3,7718.26
+2022-11-01,North America,Consumer,Furniture,95,36.11,0.15,2915.88
+2022-11-01,North America,Consumer,Technology,221,50.03,0.05,10503.8
+2022-12-01,Asia Pacific,Consumer,Technology,155,13.26,0.3,1438.71
+2022-12-01,Europe,Corporate,Furniture,273,60.72,0.15,14090.08
+2022-12-01,Asia Pacific,Corporate,Technology,110,39.49,0.05,4126.7
+2022-12-01,Latin America,Corporate,Furniture,449,52.33,0.25,17622.13
+2022-12-01,North America,Consumer,Technology,446,14.67,0.25,4907.12
+2022-12-01,Europe,Home Office,Office Supplies,340,13.35,0.25,3404.25
+2022-12-01,Asia Pacific,Home Office,Technology,256,9.91,0.3,1775.87
+2022-12-01,Latin America,Consumer,Furniture,15,42.8,0.15,545.7
+2022-12-01,Asia Pacific,Home Office,Office Supplies,127,29.5,0.25,2809.88
+2022-12-01,Asia Pacific,Corporate,Technology,203,57.89,0.05,11164.09
+2022-12-01,Asia Pacific,Consumer,Technology,335,96.96,0.15,27609.36
+2022-12-01,Asia Pacific,Consumer,Technology,149,15.91,0.05,2252.06
+2022-12-01,Europe,Corporate,Technology,391,19.66,0.15,6534.0
+2022-12-01,North America,Home Office,Furniture,170,40.08,0.05,6472.92
+2022-12-01,North America,Home Office,Office Supplies,181,24.16,0.05,4154.31
+2023-01-01,Latin America,Consumer,Furniture,110,5.26,0.0,578.6
+2023-01-01,Asia Pacific,Home Office,Office Supplies,428,38.14,0.0,16323.92
+2023-01-01,North America,Corporate,Office Supplies,343,93.63,0.1,28903.58
+2023-01-01,North America,Corporate,Furniture,44,93.01,0.25,3069.33
+2023-01-01,Latin America,Consumer,Furniture,370,76.3,0.15,23996.35
+2023-01-01,Europe,Home Office,Technology,174,82.38,0.1,12900.71
+2023-01-01,Europe,Corporate,Office Supplies,141,35.04,0.05,4693.61
+2023-01-01,North America,Corporate,Furniture,113,40.81,0.1,4150.38
+2023-01-01,North America,Corporate,Technology,32,46.68,0.0,1493.76
+2023-01-01,North America,Consumer,Technology,459,56.64,0.1,23397.98
+2023-01-01,Asia Pacific,Home Office,Office Supplies,143,36.62,0.1,4712.99
+2023-01-01,Latin America,Corporate,Furniture,120,63.91,0.15,6518.82
+2023-01-01,Europe,Home Office,Furniture,429,99.78,0.0,42805.62
+2023-01-01,North America,Consumer,Technology,420,75.67,0.25,23836.05
+2023-01-01,Latin America,Corporate,Office Supplies,19,51.93,0.05,937.34
+2023-02-01,North America,Corporate,Office Supplies,406,15.51,0.15,5352.5
+2023-02-01,North America,Home Office,Technology,145,19.24,0.3,1952.86
+2023-02-01,Latin America,Consumer,Office Supplies,420,65.91,0.1,24913.98
+2023-02-01,Latin America,Corporate,Furniture,292,37.84,0.1,9944.35
+2023-02-01,Europe,Corporate,Office Supplies,143,43.08,0.3,4312.31
+2023-02-01,Europe,Corporate,Furniture,405,91.63,0.25,27832.61
+2023-02-01,Europe,Consumer,Technology,120,73.98,0.1,7989.84
+2023-02-01,Latin America,Consumer,Technology,337,66.88,0.0,22538.56
+2023-02-01,Latin America,Home Office,Office Supplies,402,45.29,0.2,14565.26
+2023-02-01,Europe,Consumer,Office Supplies,276,47.83,0.25,9900.81
+2023-02-01,North America,Consumer,Office Supplies,119,22.7,0.3,1890.91
+2023-02-01,North America,Consumer,Furniture,447,54.29,0.3,16987.34
+2023-02-01,North America,Home Office,Technology,318,36.84,0.15,9957.85
+2023-02-01,North America,Consumer,Office Supplies,434,15.86,0.15,5850.75
+2023-02-01,North America,Corporate,Furniture,303,37.9,0.05,10909.51
+2023-03-01,Asia Pacific,Corporate,Furniture,26,60.77,0.1,1422.02
+2023-03-01,Latin America,Home Office,Furniture,191,21.76,0.3,2909.31
+2023-03-01,Latin America,Corporate,Technology,353,34.59,0.2,9768.22
+2023-03-01,Asia Pacific,Home Office,Office Supplies,163,6.24,0.2,813.7
+2023-03-01,North America,Home Office,Technology,93,48.6,0.15,3841.83
+2023-03-01,Europe,Corporate,Furniture,198,22.52,0.3,3121.27
+2023-03-01,North America,Consumer,Office Supplies,224,45.54,0.1,9180.86
+2023-03-01,Europe,Corporate,Technology,314,8.47,0.25,1994.69
+2023-03-01,Latin America,Home Office,Office Supplies,266,78.68,0.3,14650.22
+2023-03-01,Europe,Corporate,Office Supplies,485,50.7,0.25,18442.12
+2023-03-01,Europe,Home Office,Furniture,141,22.28,0.2,2513.18
+2023-03-01,Asia Pacific,Home Office,Furniture,297,30.87,0.1,8251.55
+2023-03-01,Europe,Corporate,Technology,96,98.0,0.05,8937.6
+2023-03-01,Asia Pacific,Consumer,Technology,322,26.09,0.3,5880.69
+2023-03-01,Asia Pacific,Home Office,Technology,337,14.89,0.3,3512.55
+2023-04-01,North America,Home Office,Furniture,106,57.89,0.05,5829.52
+2023-04-01,Asia Pacific,Corporate,Office Supplies,409,42.73,0.2,13981.26
+2023-04-01,Europe,Consumer,Office Supplies,232,35.78,0.05,7885.91
+2023-04-01,Asia Pacific,Corporate,Furniture,170,24.75,0.1,3786.75
+2023-04-01,Latin America,Consumer,Furniture,45,66.08,0.05,2824.92
+2023-04-01,Europe,Consumer,Furniture,206,37.47,0.05,7332.88
+2023-04-01,Asia Pacific,Corporate,Furniture,480,8.25,0.15,3366.0
+2023-04-01,North America,Consumer,Office Supplies,265,57.44,0.05,14460.52
+2023-04-01,North America,Home Office,Office Supplies,351,79.08,0.0,27757.08
+2023-04-01,Europe,Corporate,Furniture,224,80.99,0.0,18141.76
+2023-04-01,Europe,Home Office,Technology,23,75.46,0.05,1648.8
+2023-04-01,North America,Consumer,Furniture,210,18.24,0.1,3447.36
+2023-04-01,Europe,Corporate,Office Supplies,38,21.31,0.3,566.85
+2023-04-01,North America,Home Office,Office Supplies,155,55.32,0.05,8145.87
+2023-04-01,Latin America,Consumer,Office Supplies,43,57.65,0.0,2478.95
+2023-05-01,Europe,Corporate,Furniture,126,6.04,0.2,608.83
+2023-05-01,Asia Pacific,Consumer,Furniture,143,74.56,0.05,10128.98
+2023-05-01,Latin America,Consumer,Technology,318,21.66,0.2,5510.3
+2023-05-01,North America,Corporate,Technology,485,78.24,0.25,28459.8
+2023-05-01,Latin America,Corporate,Office Supplies,372,22.52,0.2,6701.95
+2023-05-01,Latin America,Home Office,Office Supplies,38,41.98,0.1,1435.72
+2023-05-01,Latin America,Consumer,Furniture,304,62.99,0.25,14361.72
+2023-05-01,Europe,Home Office,Furniture,161,94.0,0.2,12107.2
+2023-05-01,Latin America,Consumer,Office Supplies,45,56.29,0.1,2279.75
+2023-05-01,Asia Pacific,Home Office,Technology,455,95.75,0.1,39209.62
+2023-05-01,Europe,Consumer,Office Supplies,459,15.13,0.0,6944.67
+2023-05-01,Latin America,Consumer,Technology,226,71.97,0.05,15451.96
+2023-05-01,North America,Home Office,Furniture,140,12.39,0.15,1474.41
+2023-05-01,Latin America,Home Office,Office Supplies,111,61.07,0.1,6100.89
+2023-05-01,North America,Home Office,Furniture,314,18.0,0.05,5369.4
+2023-06-01,North America,Home Office,Technology,312,13.24,0.1,3717.79
+2023-06-01,Latin America,Home Office,Technology,90,67.58,0.25,4561.65
+2023-06-01,Latin America,Corporate,Technology,475,51.5,0.3,17123.75
+2023-06-01,Asia Pacific,Corporate,Technology,374,68.64,0.05,24387.79
+2023-06-01,Latin America,Home Office,Technology,416,57.8,0.25,18033.6
+2023-06-01,Europe,Home Office,Office Supplies,344,71.25,0.0,24510.0
+2023-06-01,Asia Pacific,Corporate,Furniture,224,80.56,0.3,12631.81
+2023-06-01,Europe,Home Office,Furniture,411,54.63,0.3,15717.05
+2023-06-01,North America,Corporate,Furniture,161,26.85,0.15,3674.42
+2023-06-01,North America,Corporate,Furniture,302,55.38,0.05,15888.52
+2023-06-01,Asia Pacific,Home Office,Furniture,24,81.38,0.15,1660.15
+2023-06-01,North America,Corporate,Technology,406,64.46,0.2,20936.61
+2023-06-01,Europe,Corporate,Office Supplies,320,48.88,0.05,14859.52
+2023-06-01,Europe,Home Office,Furniture,278,55.25,0.1,13823.55
+2023-06-01,Asia Pacific,Home Office,Office Supplies,38,77.88,0.2,2367.55
+2023-07-01,Europe,Consumer,Technology,281,88.0,0.3,17309.6
+2023-07-01,North America,Corporate,Office Supplies,418,36.96,0.15,13131.89
+2023-07-01,North America,Consumer,Office Supplies,186,15.5,0.25,2162.25
+2023-07-01,Latin America,Corporate,Office Supplies,333,72.98,0.2,19441.87
+2023-07-01,North America,Consumer,Technology,472,45.64,0.0,21542.08
+2023-07-01,North America,Home Office,Office Supplies,302,79.7,0.1,21662.46
+2023-07-01,Latin America,Corporate,Furniture,449,89.0,0.1,35964.9
+2023-07-01,Europe,Consumer,Office Supplies,162,75.62,0.15,10412.87
+2023-07-01,Asia Pacific,Consumer,Furniture,319,62.73,0.2,16008.7
+2023-07-01,Europe,Corporate,Furniture,235,41.49,0.0,9750.15
+2023-07-01,North America,Corporate,Furniture,385,38.26,0.2,11784.08
+2023-07-01,Europe,Home Office,Furniture,186,54.23,0.15,8573.76
+2023-07-01,Europe,Consumer,Technology,388,42.64,0.05,15717.1
+2023-07-01,Europe,Corporate,Technology,225,90.26,0.1,18277.65
+2023-07-01,Europe,Consumer,Technology,98,61.33,0.25,4507.76
+2023-08-01,North America,Corporate,Furniture,114,42.16,0.1,4325.62
+2023-08-01,Latin America,Consumer,Technology,204,95.79,0.15,16609.99
+2023-08-01,Europe,Consumer,Furniture,49,93.5,0.1,4123.35
+2023-08-01,Asia Pacific,Corporate,Furniture,47,29.68,0.2,1115.97
+2023-08-01,Latin America,Corporate,Office Supplies,463,96.4,0.2,35706.56
+2023-08-01,Latin America,Consumer,Technology,90,10.84,0.2,780.48
+2023-08-01,Latin America,Corporate,Technology,124,83.34,0.05,9817.45
+2023-08-01,Latin America,Home Office,Technology,246,74.72,0.1,16543.01
+2023-08-01,Latin America,Consumer,Furniture,68,20.24,0.2,1101.06
+2023-08-01,Asia Pacific,Consumer,Technology,190,69.61,0.3,9258.13
+2023-08-01,Asia Pacific,Corporate,Furniture,142,88.68,0.05,11962.93
+2023-08-01,North America,Home Office,Furniture,32,5.49,0.1,158.11
+2023-08-01,North America,Corporate,Furniture,424,5.11,0.05,2058.31
+2023-08-01,Europe,Consumer,Technology,21,5.61,0.2,94.25
+2023-08-01,Europe,Home Office,Technology,242,65.02,0.3,11014.39
+2023-09-01,Europe,Consumer,Furniture,335,31.92,0.3,7485.24
+2023-09-01,Europe,Consumer,Office Supplies,328,42.25,0.3,9700.6
+2023-09-01,Europe,Consumer,Technology,287,94.04,0.15,22941.06
+2023-09-01,Europe,Home Office,Technology,21,11.4,0.05,227.43
+2023-09-01,Europe,Consumer,Office Supplies,483,12.1,0.05,5552.08
+2023-09-01,Europe,Corporate,Furniture,294,47.37,0.1,12534.1
+2023-09-01,Asia Pacific,Consumer,Furniture,38,7.1,0.25,202.35
+2023-09-01,Asia Pacific,Home Office,Furniture,468,69.91,0.05,31081.99
+2023-09-01,Europe,Corporate,Office Supplies,294,94.71,0.1,25060.27
+2023-09-01,North America,Consumer,Furniture,280,80.51,0.2,18034.24
+2023-09-01,Asia Pacific,Corporate,Furniture,471,26.86,0.1,11385.95
+2023-09-01,Asia Pacific,Home Office,Technology,391,19.35,0.15,6430.97
+2023-09-01,North America,Consumer,Furniture,473,86.45,0.15,34757.22
+2023-09-01,Europe,Home Office,Technology,462,98.48,0.0,45497.76
+2023-09-01,Europe,Corporate,Furniture,171,25.24,0.0,4316.04
+2023-10-01,North America,Corporate,Furniture,217,56.61,0.15,10441.71
+2023-10-01,Europe,Consumer,Technology,102,78.78,0.3,5624.89
+2023-10-01,Asia Pacific,Corporate,Office Supplies,208,64.49,0.15,11401.83
+2023-10-01,North America,Corporate,Furniture,413,80.67,0.0,33316.71
+2023-10-01,Europe,Corporate,Furniture,282,62.69,0.15,15026.79
+2023-10-01,Latin America,Consumer,Office Supplies,441,51.7,0.3,15959.79
+2023-10-01,Europe,Corporate,Technology,126,61.08,0.1,6926.47
+2023-10-01,Latin America,Consumer,Technology,81,49.14,0.25,2985.26
+2023-10-01,Latin America,Corporate,Office Supplies,104,73.58,0.1,6887.09
+2023-10-01,North America,Consumer,Technology,111,91.24,0.1,9114.88
+2023-10-01,Europe,Home Office,Technology,410,14.77,0.25,4541.77
+2023-10-01,Latin America,Home Office,Office Supplies,95,24.98,0.0,2373.1
+2023-10-01,Europe,Corporate,Technology,11,55.75,0.0,613.25
+2023-10-01,North America,Corporate,Technology,86,12.46,0.25,803.67
+2023-10-01,Asia Pacific,Corporate,Office Supplies,368,24.08,0.05,8418.37
+2023-11-01,Europe,Home Office,Office Supplies,115,20.91,0.0,2404.65
+2023-11-01,Latin America,Home Office,Technology,460,90.14,0.0,41464.4
+2023-11-01,Europe,Consumer,Furniture,232,56.42,0.05,12434.97
+2023-11-01,Latin America,Corporate,Office Supplies,93,37.25,0.1,3117.82
+2023-11-01,Asia Pacific,Home Office,Furniture,93,57.54,0.25,4013.42
+2023-11-01,Europe,Corporate,Office Supplies,392,66.14,0.0,25926.88
+2023-11-01,Latin America,Corporate,Office Supplies,468,73.86,0.15,29381.51
+2023-11-01,Asia Pacific,Consumer,Technology,310,63.5,0.1,17716.5
+2023-11-01,Asia Pacific,Corporate,Technology,401,87.82,0.2,28172.66
+2023-11-01,Asia Pacific,Home Office,Office Supplies,463,73.32,0.25,25460.37
+2023-11-01,North America,Consumer,Furniture,140,12.75,0.1,1606.5
+2023-11-01,Asia Pacific,Consumer,Technology,447,7.91,0.0,3535.77
+2023-11-01,Asia Pacific,Consumer,Office Supplies,222,74.08,0.2,13156.61
+2023-11-01,Latin America,Consumer,Office Supplies,29,52.96,0.05,1459.05
+2023-11-01,North America,Home Office,Technology,429,7.79,0.05,3174.81
+2023-12-01,Latin America,Corporate,Furniture,427,80.33,0.3,24010.64
+2023-12-01,Europe,Home Office,Furniture,195,91.67,0.15,15194.3
+2023-12-01,Asia Pacific,Consumer,Office Supplies,49,84.42,0.0,4136.58
+2023-12-01,Asia Pacific,Corporate,Office Supplies,96,65.09,0.25,4686.48
+2023-12-01,Europe,Corporate,Furniture,302,86.17,0.2,20818.67
+2023-12-01,North America,Corporate,Office Supplies,325,43.48,0.25,10598.25
+2023-12-01,Latin America,Home Office,Technology,93,61.33,0.25,4277.77
+2023-12-01,North America,Home Office,Technology,37,29.52,0.2,873.79
+2023-12-01,North America,Home Office,Technology,433,61.88,0.15,22774.93
+2023-12-01,North America,Home Office,Furniture,296,27.42,0.1,7304.69
+2023-12-01,Europe,Corporate,Office Supplies,102,37.02,0.25,2832.03
+2023-12-01,North America,Consumer,Technology,285,60.85,0.15,14740.91
+2023-12-01,North America,Consumer,Office Supplies,477,41.04,0.1,17618.47
+2023-12-01,North America,Home Office,Technology,213,50.09,0.0,10669.17
+2023-12-01,Latin America,Home Office,Furniture,399,24.55,0.2,7836.36
