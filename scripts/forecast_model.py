@@ -1,6 +1,6 @@
 # forecast_model.py
 # Author: João Borboni
-# Description: Trains a regression model to predict revenue and outputs results including date for Power BI use
+# Description: Trains a regression model to predict revenue and saves results including full date info
 
 import pandas as pd
 import numpy as np
@@ -12,70 +12,70 @@ from sklearn.compose import ColumnTransformer
 from sklearn.pipeline import Pipeline
 from sklearn.metrics import mean_absolute_error, r2_score
 
-# Load original dataset (includes Date column)
+# Load dataset
 df = pd.read_csv('data/raw/sales_forecasting_dataset.csv')
 
-# Save Date separately before transforming the dataset
-dates = df['date']
+# Ensure consistent lowercase column names
+df.columns = [col.lower() for col in df.columns]
 
-# Define features and target
-X = df.drop(columns=['revenue', 'date'])
+# Make sure 'date' is datetime type
+df['date'] = pd.to_datetime(df['date'])
+
+# Separate features and target
+X = df.drop(columns=['revenue'])
 y = df['revenue']
 
-# Define categorical and numerical columns
+# Split keeping track of original indices
+X_train, X_test, y_train, y_test = train_test_split(
+    X, y, test_size=0.2, random_state=42
+)
+
+# Store original date from df using the index of X_test
+dates_test = df.loc[X_test.index, 'date']
+
+# Prepare inputs for model (drop 'date' only at this step)
+X_train_model = X_train.drop(columns=['date'])
+X_test_model = X_test.drop(columns=['date'])
+
+# Define preprocessing pipeline
 categorical_cols = ['region', 'segment', 'product_category']
 numerical_cols = ['units_sold', 'unit_price', 'discount_percent']
 
-# Preprocessing pipeline for categorical features
 preprocessor = ColumnTransformer(
     transformers=[
         ('cat', OneHotEncoder(drop='first'), categorical_cols)
     ],
-    remainder='passthrough'  # keep numerical columns
+    remainder='passthrough'
 )
 
-# Combine preprocessing and model into a pipeline
+# Pipeline with model
 model = Pipeline(steps=[
     ('preprocessor', preprocessor),
     ('regressor', LinearRegression())
 ])
 
-# Perform train/test split (and keep index for later merge with date)
-X_train, X_test, y_train, y_test, date_train, date_test = train_test_split(
-    X, y, dates, test_size=0.2, random_state=42
-)
+# Train model
+model.fit(X_train_model, y_train)
 
-# Train the model
-model.fit(X_train, y_train)
+# Predict
+y_pred = model.predict(X_test_model)
 
-# Predict revenue on the test set
-y_pred = model.predict(X_test)
+# Create final result DataFrame
+result_df = X_test_model.copy()
+result_df['date'] = dates_test.values
+result_df['actual_revenue'] = y_test.values
+result_df['predicted_revenue'] = y_pred
 
-# Evaluate model performance
-mae = mean_absolute_error(y_test, y_pred)
-r2 = r2_score(y_test, y_pred)
-
-print(f"✅ Model trained")
-print(f"📊 MAE: {mae:.2f}")
-print(f"📈 R² Score: {r2:.2f}")
-
-# Combine test features, predictions, and original date for export
-X_test_copy = X_test.copy()
-X_test_copy['date'] = date_test.values
-X_test_copy['actual_revenue'] = y_test.values
-X_test_copy['predicted_revenue'] = y_pred
-
-# Reorder columns for better readability
-cols = ['date'] + [col for col in X_test_copy.columns if col != 'date']
-X_test_copy = X_test_copy[cols]
+# Reorder columns
+column_order = ['date'] + [col for col in result_df.columns if col != 'date']
+result_df = result_df[column_order]
 
 # Save to CSV
-output_path = '../data/raw/revenue_predictions.csv'
+output_path = 'data/raw/revenue_predictions.csv'
 os.makedirs(os.path.dirname(output_path), exist_ok=True)
-X_test_copy.to_csv(output_path, index=False)
+result_df.to_csv(output_path, index=False)
 
-print(f"💾 Predictions saved to '{output_path}'")
-
+print(f"✅ Model trained and predictions saved to '{output_path}'")
 
 # Save model coefficients to CSV
 coefs = model.named_steps['regressor'].coef_
