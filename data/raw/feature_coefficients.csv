@@ -1,0 +1,11 @@
+Feature,Coefficient
+cat__region_Europe,376.77771266468295
+cat__region_Latin America,669.0823849931123
+cat__region_North America,780.5240467864825
+cat__segment_Corporate,234.7076147828619
+cat__segment_Home Office,234.00330436267407
+cat__product_category_Office Supplies,120.91148354364479
+cat__product_category_Technology,193.31832340236642
+remainder__units_sold,42.72943016009073
+remainder__unit_price,224.20849568859978
+remainder__discount_percent,-15425.465349815482
