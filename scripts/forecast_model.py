@@ -85,3 +85,51 @@ coef_df = pd.DataFrame({
     'Coefficient': coefs
 })
 coef_df.to_csv('data/raw/feature_coefficients.csv', index=False)
+
+# Create summary metrics as a DataFrame
+
+from sklearn.metrics import mean_absolute_error, r2_score
+
+summary_rows = []
+
+# Add global metrics
+mae_global = mean_absolute_error(result_df['actual_revenue'], result_df['predicted_revenue'])
+r2_global = r2_score(result_df['actual_revenue'], result_df['predicted_revenue'])
+
+summary_rows.append({
+    'group_type': 'global',
+    'group_value': 'all',
+    'mae': round(mae_global, 2),
+    'r2_score': round(r2_global, 3)
+})
+
+# Add region-level metrics
+for region, group_df in result_df.groupby('region'):
+    mae = mean_absolute_error(group_df['actual_revenue'], group_df['predicted_revenue'])
+    r2 = r2_score(group_df['actual_revenue'], group_df['predicted_revenue'])
+    summary_rows.append({
+        'group_type': 'region',
+        'group_value': region,
+        'mae': round(mae, 2),
+        'r2_score': round(r2, 3)
+    })
+
+# Add segment-level metrics
+for segment, group_df in result_df.groupby('segment'):
+    mae = mean_absolute_error(group_df['actual_revenue'], group_df['predicted_revenue'])
+    r2 = r2_score(group_df['actual_revenue'], group_df['predicted_revenue'])
+    summary_rows.append({
+        'group_type': 'segment',
+        'group_value': segment,
+        'mae': round(mae, 2),
+        'r2_score': round(r2, 3)
+    })
+
+# Create DataFrame
+metrics_df = pd.DataFrame(summary_rows)
+
+# Save to CSV
+metrics_output_path = 'data/raw/model_performance_summary.csv'
+metrics_df.to_csv(metrics_output_path, index=False)
+
+print(f"📁 Grouped performance metrics saved to '{metrics_output_path}'")

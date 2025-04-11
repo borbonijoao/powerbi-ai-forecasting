@@ -1,0 +1,9 @@
+group_type,group_value,mae,r2_score
+global,all,2424.41,0.832
+region,Asia Pacific,2164.63,0.855
+region,Europe,2481.91,0.796
+region,Latin America,2132.31,0.874
+region,North America,2892.05,0.813
+segment,Consumer,2606.69,0.832
+segment,Corporate,2549.15,0.827
+segment,Home Office,2070.29,0.777
