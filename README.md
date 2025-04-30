@@ -6,7 +6,16 @@ This project demonstrates how to apply machine learning for sales forecasting an
 
 ## 🔍 Project Overview
 
-We simulate a real-world sales dataset and apply forecasting techniques using Python (scikit-learn), along with visual explanations of model outputs. The final output is delivered through an interactive Power BI report.
+We simulate a real-world sales dataset and apply forecasting techniques using Python (scikit-learn), along with visual explanations of model outputs. The final output is delivered through an interactive Power BI report, with three dedicated pages:
+
+# Python-Powered Forecast
+Leverages Python scripts (scikit-learn) to build a linear regression model on historical sales data. Data preparation, model training, and forecast generation occur in Python, then are visualized in Power BI to compare actual vs. predicted revenue.
+
+# DAX-Driven Insights
+All metrics and forecasts are calculated using DAX within Power BI. The regression model is recreated with LINESTX and related functions, providing a fully in-model solution that highlights the power of native DAX analytics.
+
+# Interactive What-If Scenarios
+Dynamic scenario analysis using a parameter-driven moving average forecast. End users can select the number of months for the rolling window, instantly updating the forecast—ideal for “what-if” planning.
 
 ---
 
@@ -31,12 +40,14 @@ We simulate a real-world sales dataset and apply forecasting techniques using Py
 
 ---
 
-## 🚀 Key Concepts
+## 🚀 Workflow & Key Concepts
 
-- Forecasting sales using regression (e.g., linear, ridge)
-- Explainability of models using feature importance
-- Integration of Python scripts into Power BI
-- Clear data storytelling through KPIs and visuals
+- **Data Generation** via Python notebook and CSV export
+- **Python Regression:** Linear regression forecasts via scikit-learn
+- **Native DAX Regression:** LINESTX-based models inside Power BI
+- **Moving Average Forecast:** Parameter-driven DAX measures
+- **What-If Analysis:** Dynamic scenario planning with DAX parameters
+- **Visualization:** Interactive time series, bar charts, and scenario sliders
 
 ---
 
